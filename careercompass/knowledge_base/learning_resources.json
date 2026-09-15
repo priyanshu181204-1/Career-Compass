@@ -1,0 +1,50 @@
+{
+  "Docker": {
+    "course": "Docker Mastery: with Kubernetes + Swarm (Udemy)",
+    "docs": "https://docs.docker.com/get-started/",
+    "book": "Docker in Action, 2nd Edition (Manning)",
+    "project": "Containerize a full-stack web application with multi-stage Dockerfiles and docker-compose orchestration."
+  },
+  "Kubernetes": {
+    "course": "Certified Kubernetes Administrator (CKA) Course (Linux Foundation)",
+    "docs": "https://kubernetes.io/docs/tutorials/",
+    "book": "Kubernetes: Up and Running (O'Reilly)",
+    "project": "Deploy a multi-tier microservice cluster with ConfigMaps, Secrets, Ingress, and Horizontal Pod Autoscaling (HPA)."
+  },
+  "Machine Learning": {
+    "course": "Machine Learning Specialization by Andrew Ng (DeepLearning.AI / Coursera)",
+    "docs": "https://scikit-learn.org/stable/user_guide.html",
+    "book": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Aur\u00e9lien G\u00e9ron)",
+    "project": "Build an end-to-end churn prediction pipeline handling class imbalance, cross-validation, and SHAP interpretability."
+  },
+  "PyTorch": {
+    "course": "Deep Learning with PyTorch (Udacity / DeepLearning.AI)",
+    "docs": "https://pytorch.org/tutorials/",
+    "book": "Deep Learning with PyTorch (Eli Stevens et al.)",
+    "project": "Implement and train a custom Transformer or ResNet architecture with mixed-precision training and checkpointing."
+  },
+  "System Design": {
+    "course": "Grokking the System Design Interview (DesignGurus)",
+    "docs": "https://github.com/donnemartin/system-design-primer",
+    "book": "Designing Data-Intensive Applications (Martin Kleppmann)",
+    "project": "Design a high-throughput URL shortener or distributed rate limiter handling 100,000 requests per second."
+  },
+  "PostgreSQL": {
+    "course": "PostgreSQL for Everybody (Coursera / University of Michigan)",
+    "docs": "https://www.postgresql.org/docs/current/",
+    "book": "The Art of PostgreSQL (Dimitri Fontaine)",
+    "project": "Design a normalized e-commerce database with complex joins, indexes, partial indexes, and window function analytics."
+  },
+  "React": {
+    "course": "The Complete React Developer (Epic React by Kent C. Dodds)",
+    "docs": "https://react.dev/learn",
+    "book": "Fullstack React (newline)",
+    "project": "Develop a real-time collaborative dashboard using React, TypeScript, React Query, and Tailwind CSS."
+  },
+  "AWS": {
+    "course": "AWS Certified Solutions Architect Associate (Stephane Maarek / Udemy)",
+    "docs": "https://aws.amazon.com/architecture/well-architected/",
+    "book": "AWS in Action (Manning)",
+    "project": "Provision an auto-scaling, fault-tolerant web architecture across two Availability Zones using Terraform and AWS VPC/ALB/ECS."
+  }
+}

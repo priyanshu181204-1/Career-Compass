@@ -1,0 +1,321 @@
+{
+  "Data Scientist": {
+    "description": "Applies statistical modeling, machine learning, and data analysis to solve complex business problems and derive predictive insights.",
+    "core_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Scikit-Learn",
+      "Pandas",
+      "Deep Learning"
+    ],
+    "secondary_skills": [
+      "PyTorch",
+      "NLP",
+      "Docker",
+      "AWS",
+      "BigQuery"
+    ],
+    "exp_brackets": {
+      "Junior": [
+        0,
+        2
+      ],
+      "Mid-Level": [
+        2,
+        5
+      ],
+      "Senior": [
+        5,
+        9
+      ],
+      "Lead/Staff": [
+        9,
+        15
+      ]
+    },
+    "salary_range": {
+      "min": 85000,
+      "max": 185000
+    }
+  },
+  "Machine Learning Engineer": {
+    "description": "Designs, builds, and deploys production machine learning pipelines, deep learning architectures, and scalable inference services.",
+    "core_skills": [
+      "Python",
+      "PyTorch",
+      "Docker",
+      "Machine Learning",
+      "Kubernetes",
+      "CI/CD",
+      "FastAPI"
+    ],
+    "secondary_skills": [
+      "Large Language Models",
+      "Transformers",
+      "Kafka",
+      "AWS",
+      "GCP"
+    ],
+    "exp_brackets": {
+      "Junior": [
+        0,
+        2
+      ],
+      "Mid-Level": [
+        2,
+        5
+      ],
+      "Senior": [
+        5,
+        9
+      ],
+      "Lead/Staff": [
+        9,
+        16
+      ]
+    },
+    "salary_range": {
+      "min": 105000,
+      "max": 210000
+    }
+  },
+  "Backend Engineer": {
+    "description": "Architects resilient server-side applications, RESTful and GraphQL APIs, distributed database schemas, and microservice backends.",
+    "core_skills": [
+      "Python",
+      "Go",
+      "Java",
+      "PostgreSQL",
+      "System Design",
+      "Redis",
+      "Docker"
+    ],
+    "secondary_skills": [
+      "Kafka",
+      "Kubernetes",
+      "AWS",
+      "FastAPI",
+      "CI/CD",
+      "Node.js"
+    ],
+    "exp_brackets": {
+      "Junior": [
+        0,
+        2
+      ],
+      "Mid-Level": [
+        2,
+        5
+      ],
+      "Senior": [
+        5,
+        8
+      ],
+      "Lead/Staff": [
+        8,
+        15
+      ]
+    },
+    "salary_range": {
+      "min": 90000,
+      "max": 185000
+    }
+  },
+  "Cloud & DevOps Engineer": {
+    "description": "Automates cloud infrastructure provisioning, CI/CD pipelines, container orchestration, monitoring, and site reliability engineering.",
+    "core_skills": [
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "secondary_skills": [
+      "GCP",
+      "Prometheus",
+      "Python",
+      "Go",
+      "Azure"
+    ],
+    "exp_brackets": {
+      "Junior": [
+        0,
+        3
+      ],
+      "Mid-Level": [
+        3,
+        6
+      ],
+      "Senior": [
+        6,
+        10
+      ],
+      "Lead/Staff": [
+        10,
+        16
+      ]
+    },
+    "salary_range": {
+      "min": 95000,
+      "max": 195000
+    }
+  },
+  "Frontend Engineer": {
+    "description": "Builds responsive, high-performance web applications, reusable component design systems, and seamless user experiences.",
+    "core_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "HTML/CSS",
+      "Next.js"
+    ],
+    "secondary_skills": [
+      "Node.js",
+      "GraphQL",
+      "Docker",
+      "CI/CD"
+    ],
+    "exp_brackets": {
+      "Junior": [
+        0,
+        2
+      ],
+      "Mid-Level": [
+        2,
+        5
+      ],
+      "Senior": [
+        5,
+        8
+      ],
+      "Lead/Staff": [
+        8,
+        14
+      ]
+    },
+    "salary_range": {
+      "min": 80000,
+      "max": 165000
+    }
+  },
+  "Full Stack Engineer": {
+    "description": "Delivers end-to-end features spanning modern client-side reactive frameworks, server-side APIs, database schemas, and cloud deployment.",
+    "core_skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Python",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "secondary_skills": [
+      "FastAPI",
+      "AWS",
+      "Redis",
+      "CI/CD",
+      "GraphQL"
+    ],
+    "exp_brackets": {
+      "Junior": [
+        0,
+        2
+      ],
+      "Mid-Level": [
+        2,
+        5
+      ],
+      "Senior": [
+        5,
+        9
+      ],
+      "Lead/Staff": [
+        9,
+        15
+      ]
+    },
+    "salary_range": {
+      "min": 88000,
+      "max": 175000
+    }
+  },
+  "Data Engineer": {
+    "description": "Constructs robust batch and real-time streaming ETL pipelines, distributed data warehouses, and automated data quality validation.",
+    "core_skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "Kafka",
+      "Airflow",
+      "PostgreSQL"
+    ],
+    "secondary_skills": [
+      "Snowflake",
+      "AWS",
+      "GCP",
+      "Docker",
+      "Terraform"
+    ],
+    "exp_brackets": {
+      "Junior": [
+        0,
+        2
+      ],
+      "Mid-Level": [
+        2,
+        5
+      ],
+      "Senior": [
+        5,
+        9
+      ],
+      "Lead/Staff": [
+        9,
+        15
+      ]
+    },
+    "salary_range": {
+      "min": 95000,
+      "max": 185000
+    }
+  },
+  "Cybersecurity Engineer": {
+    "description": "Safeguards systems, clouds, and networks against vulnerabilities, performs threat modeling, security auditing, and incident response.",
+    "core_skills": [
+      "Linux",
+      "Python",
+      "AWS",
+      "Docker",
+      "CI/CD"
+    ],
+    "secondary_skills": [
+      "Go",
+      "Kubernetes",
+      "Terraform",
+      "PostgreSQL"
+    ],
+    "exp_brackets": {
+      "Junior": [
+        0,
+        3
+      ],
+      "Mid-Level": [
+        3,
+        6
+      ],
+      "Senior": [
+        6,
+        10
+      ],
+      "Lead/Staff": [
+        10,
+        16
+      ]
+    },
+    "salary_range": {
+      "min": 92000,
+      "max": 190000
+    }
+  }
+}

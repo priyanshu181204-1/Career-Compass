@@ -1,0 +1,96 @@
+{
+  "Docker": [
+    {
+      "question": "How does a Docker container differ fundamentally from a Virtual Machine?",
+      "topic": "Containerization",
+      "key_points": "Shared OS kernel vs separate hypervisor/guest OS, lightweight startup, lower resource footprint, namespace isolation (pid, net, mnt), cgroups resource throttling.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What techniques would you apply to optimize Docker image build size and layer caching in production?",
+      "topic": "Container Optimization",
+      "key_points": "Multi-stage builds, pinning base image tags (alpine/slim), ordering instructions from least to most frequently changed, combining RUN commands, using .dockerignore.",
+      "difficulty": "Advanced"
+    }
+  ],
+  "Kubernetes": [
+    {
+      "question": "Explain the interaction between Deployments, ReplicaSets, Pods, and Services in Kubernetes.",
+      "topic": "Orchestration Architecture",
+      "key_points": "Deployment manages declarative state and rolling updates of ReplicaSets; ReplicaSets ensure pod replicas; Services provide stable virtual IP and DNS load balancing over Pod endpoints.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How do liveness and readiness probes differ, and what happens when each fails?",
+      "topic": "Health Probes",
+      "key_points": "Liveness probe failure kills and restarts container; readiness probe failure stops routing service traffic to the pod until it is ready.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "Python": [
+    {
+      "question": "What is Python's Global Interpreter Lock (GIL) and how does it impact multi-threading vs multi-processing?",
+      "topic": "Concurrency",
+      "key_points": "Mutex preventing multiple native threads from executing Python bytecode simultaneously; CPU-bound tasks require multiprocessing, I/O-bound tasks benefit from threading/asyncio.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the difference between shallow copy and deep copy in Python?",
+      "topic": "Memory & Data Structures",
+      "key_points": "Shallow copy constructs a new compound object but inserts references to the original child objects; deep copy recursively copies all nested objects.",
+      "difficulty": "Beginner"
+    }
+  ],
+  "Machine Learning": [
+    {
+      "question": "How do you diagnose and mitigate severe class imbalance in classification problems?",
+      "topic": "Modeling & Imbalance",
+      "key_points": "Evaluate with PR-AUC / F1 / Balanced Accuracy instead of standard Accuracy; resample via SMOTE or Random Under/Over-sampling; use cost-sensitive loss functions (class_weight='balanced'); adjust decision thresholds.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Explain the Bias-Variance tradeoff and how regularization affects both components.",
+      "topic": "Statistical Learning",
+      "key_points": "Bias represents simplifying assumptions (underfitting); Variance represents sensitivity to training fluctuations (overfitting); L1/L2 regularization penalizes large weights, increasing bias slightly to achieve substantial variance reduction.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "System Design": [
+    {
+      "question": "How would you architect a distributed caching layer to prevent Cache Avalanche and Cache Stampede (Thundering Herd)?",
+      "topic": "Scalability & Caching",
+      "key_points": "Cache stampede: use mutex locks, probabilistic early expiration (XFetch), or background cache warmers. Cache avalanche: add random jitter to TTLs, replicate cache instances, implement circuit breakers.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Explain horizontal vs vertical scaling and database sharding strategies.",
+      "topic": "Distributed Databases",
+      "key_points": "Vertical scales machine specs (finite cap, single point of failure); horizontal adds nodes; range-based vs hash-based sharding; handling cross-shard queries and rebalancing.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "SQL": [
+    {
+      "question": "Explain the difference between WHERE and HAVING clauses, and how Window functions differ from GROUP BY.",
+      "topic": "Query Optimization",
+      "key_points": "WHERE filters rows before aggregation; HAVING filters aggregated groups; Window functions calculate metrics over partitions without collapsing individual rows into a single summary row.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "React": [
+    {
+      "question": "Explain React's Virtual DOM, reconciliation algorithm (Fiber), and key prop importance in lists.",
+      "topic": "Frontend Architecture",
+      "key_points": "In-memory representation of UI; diffing algorithm identifies minimal DOM operations; keys allow React to identify which items were changed, added, or removed during list reconciliation.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "AWS": [
+    {
+      "question": "Compare AWS Lambda serverless execution with ECS/Fargate containerized workloads in terms of cold starts and cost efficiency.",
+      "topic": "Cloud Architecture",
+      "key_points": "Lambda scales instantly to zero, ideal for event-driven / bursty workloads with cold start overhead; Fargate maintains long-running daemonized containers with consistent latency and cost predictability at steady load.",
+      "difficulty": "Intermediate"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1062 >>
+stream
+BT
+/F1 10 Tf
+50 750 Td
+14 TL
+(Rahul Gupta) '
+(rahul.gupta46@synthetic-talent.org | +1 \(555\) 661-5688 | Location: New York, NY) '
+() '
+(PROFESSIONAL SUMMARY) '
+(Results-driven Machine Learning Engineer with 2 years of industry experience specializing in FastAPI, PyTorch, GCP, Machine Learning. Proven background building scalable solutions, collaborating across agile teams, and driving measurable engineering impact.) '
+() '
+(TECHNICAL SKILLS) '
+(FastAPI, PyTorch, GCP, Machine Learning, Large Language Models, Agile, Unit Testing) '
+() '
+(PROFESSIONAL EXPERIENCE) '
+(Machine Learning Engineer | Meta \(2023 - Present\)) '
+(- Designed and deployed enterprise-grade systems utilizing FastAPI and PyTorch, improving throughput by 34%.) '
+(- Collaborated with engineering stakeholders to optimize data pipelines and system reliability using GCP.) '
+(- Reduced system downtime and latency by 26% through proactive monitoring and automated CI/CD workflows.) '
+() '
+(EDUCATION) '
+(B.Tech in Computer Science and Engineering, UT Austin \(Graduated 2023\)) '
+() '
+ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000060 00000 n 
+0000000117 00000 n 
+0000000234 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+350
+%%EOF

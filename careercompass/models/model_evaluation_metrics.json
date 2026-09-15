@@ -1,0 +1,66 @@
+{
+  "models_evaluated": {
+    "Logistic Regression (Baseline)": {
+      "precision": 0.7371,
+      "recall": 0.9207,
+      "f1": 0.8187,
+      "roc_auc": 0.987,
+      "pr_auc": 0.9597,
+      "confusion_matrix": [
+        [
+          2779,
+          240
+        ],
+        [
+          58,
+          673
+        ]
+      ]
+    },
+    "Random Forest Classifier": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "confusion_matrix": [
+        [
+          3019,
+          0
+        ],
+        [
+          0,
+          731
+        ]
+      ]
+    },
+    "HistGradientBoosting Classifier": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "confusion_matrix": [
+        [
+          3019,
+          0
+        ],
+        [
+          0,
+          731
+        ]
+      ]
+    }
+  },
+  "best_model": "Random Forest Classifier",
+  "feature_importances": {
+    "skill_overlap_ratio": 0.2619,
+    "experience_delta": 0.1314,
+    "experience_fit_score": 0.1734,
+    "education_fit_score": 0.0059,
+    "semantic_similarity": 0.2416,
+    "role_discipline_match": 0.1115,
+    "missing_skills_count": 0.0742
+  },
+  "metric_defense": "In recruitment screening, class imbalance means negative samples (non-matches) heavily dominate. While recruiters care about high Precision (minimizing false positives to avoid wasted interviews), a pure focus on precision risks discarding qualified candidates (false negatives). For CareerCompass, which provides constructive guidance and improvement plans, Balanced F1-Score is the most critical metric because it penalizes both false positive recommendations and false negative rejections."
+}

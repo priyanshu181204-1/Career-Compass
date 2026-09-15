@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1119 >>
+stream
+BT
+/F1 10 Tf
+50 750 Td
+14 TL
+(Carlos Anderson) '
+(carlos.anderson89@synthetic-talent.org | +1 \(555\) 331-8289 | Location: New York, NY) '
+() '
+(PROFESSIONAL SUMMARY) '
+(Results-driven Data Scientist with 4 years of industry experience specializing in PyTorch, AWS, Machine Learning, Deep Learning. Proven background building scalable solutions, collaborating across agile teams, and driving measurable engineering impact.) '
+() '
+(TECHNICAL SKILLS) '
+(PyTorch, AWS, Machine Learning, Deep Learning, BigQuery, REST APIs, Docker, NLP, Linux, SQL, Python, Scikit-Learn, Pandas) '
+() '
+(PROFESSIONAL EXPERIENCE) '
+(Senior Data Scientist | Netflix \(2021 - Present\)) '
+(- Designed and deployed enterprise-grade systems utilizing PyTorch and AWS, improving throughput by 38%.) '
+(- Collaborated with engineering stakeholders to optimize data pipelines and system reliability using Machine Learning.) '
+(- Reduced system downtime and latency by 12% through proactive monitoring and automated CI/CD workflows.) '
+() '
+(EDUCATION) '
+(B.Tech in Computer Science and Engineering, Sharda University \(Graduated 2021\)) '
+() '
+ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000060 00000 n 
+0000000117 00000 n 
+0000000234 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+350
+%%EOF

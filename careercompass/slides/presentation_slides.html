@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCompass - Presentation Slides</title>
+    <style>
+        :root {
+            --primary: #2563EB;
+            --primary-dark: #1E40AF;
+            --dark: #0F172A;
+            --light: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text-main: #334155;
+            --text-muted: #64748B;
+            --accent: #10B981;
+            --danger: #EF4444;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        body { background: #0B0F19; color: var(--light); display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; }
+        
+        .deck-container {
+            width: 1000px;
+            max-width: 95vw;
+            height: 620px;
+            background: #111827;
+            border: 1px solid #1F2937;
+            border-radius: 16px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide {
+            display: none;
+            padding: 45px 55px;
+            height: calc(100% - 70px);
+            overflow-y: auto;
+        }
+        .slide.active { display: block; animation: fadeIn 0.3s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+        .slide-tag {
+            color: #38BDF8;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 8px;
+        }
+        .slide-title {
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin-bottom: 18px;
+            line-height: 1.2;
+        }
+        .slide-subtitle {
+            font-size: 1.1rem;
+            color: #94A3B8;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; }
+
+        .card {
+            background: #1F2937;
+            border: 1px solid #374151;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .card-highlight {
+            border-left: 4px solid var(--primary);
+        }
+        .card h3 { color: #F3F4F6; font-size: 1.15rem; margin-bottom: 8px; }
+        .card p, .card li { color: #D1D5DB; font-size: 0.95rem; line-height: 1.5; }
+        .card ul { margin-left: 18px; margin-top: 8px; }
+
+        .metric-val { font-size: 2.2rem; font-weight: 800; color: #38BDF8; margin-bottom: 4px; }
+        .metric-lbl { font-size: 0.85rem; color: #9CA3AF; text-transform: uppercase; letter-spacing: 1px; }
+
+        .footer {
+            height: 70px;
+            border-top: 1px solid #1F2937;
+            background: #0D1320;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+        }
+        .nav-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 9px 18px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .nav-btn:hover { background: var(--primary-dark); }
+        .nav-btn:disabled { background: #374151; cursor: not-allowed; }
+        .slide-counter { font-size: 0.95rem; color: #9CA3AF; font-weight: 600; }
+        
+        .code-box {
+            background: #030712;
+            border: 1px solid #1E293B;
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.85rem;
+            color: #38BDF8;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="deck-container">
+    <!-- SLIDE 1: Title -->
+    <div class="slide active">
+        <div class="slide-tag">Project CP-01 | Be Practical Tech Solutions & Sharda University</div>
+        <h1 class="slide-title" style="font-size: 2.8rem; margin-top: 30px;">🧭 CareerCompass</h1>
+        <h2 class="slide-subtitle" style="font-size: 1.35rem; color: #38BDF8;">Resume Intelligence & Job Matching Platform</h2>
+        <div class="card card-highlight" style="margin-top: 40px;">
+            <p style="font-size: 1.1rem; line-height: 1.7;">
+                An end-to-end recruitment intelligence system combining a machine learning classifier trained on 10,600+ structured job postings with an NLP and RAG retrieval layer over unstructured candidate resumes and technical knowledge bases.
+            </p>
+        </div>
+        <div style="margin-top: 35px; color: #94A3B8; font-size: 0.95rem;">
+            <strong>Domain</strong>: Recruitment Technology & HR Analytics &nbsp;|&nbsp; <strong>Cohort</strong>: CSE VII, Batch 1 &nbsp;|&nbsp; <strong>Date</strong>: September 2026
+        </div>
+    </div>
+
+    <!-- SLIDE 2: Problem Statement -->
+    <div class="slide">
+        <div class="slide-tag">Problem Statement & Motivation</div>
+        <h2 class="slide-title">The Automated Screening Dilemma</h2>
+        <p class="slide-subtitle">Bridging the opaque gap between Applicant Tracking Systems and candidate career growth.</p>
+        <div class="grid-2">
+            <div class="card">
+                <h3 style="color: #F87171;">⚠️ The Current Industry Reality</h3>
+                <ul>
+                    <li>Over <strong>75% of resumes</strong> are rejected by automated ATS systems within seconds.</li>
+                    <li>Rejected candidates receive generic rejection templates with zero actionable feedback.</li>
+                    <li>Keyword mismatch (e.g. "K8s" vs "Kubernetes") unfairly drops qualified applicants.</li>
+                    <li>Recruiters lack transparent, explainable feature attribution for why candidates match.</li>
+                </ul>
+            </div>
+            <div class="card card-highlight">
+                <h3 style="color: #34D399;">💡 The CareerCompass Solution</h3>
+                <ul>
+                    <li><strong>Transparent 0-100 Match Score</strong> with 4-part visible calculation breakdown.</li>
+                    <li><strong>Ranked Missing Skills</strong> quantified by marginal score impact points.</li>
+                    <li><strong>Grounded 4-Week Remediation Roadmap</strong> citing specific docs, books, and courses.</li>
+                    <li><strong>Autonomous Conversational Agent</strong> with database query tool calling.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 3: System Architecture -->
+    <div class="slide">
+        <div class="slide-tag">Architecture & Pipeline</div>
+        <h2 class="slide-title">End-to-End System Architecture</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>1. Ingestion & Database</h3>
+                <p>10,600+ cleaned job postings, 550 synthetic resumes, and curated taxonomy stored in 3NF relational SQLite schema with foreign key integrity.</p>
+                <div class="code-box">jobs • companies • skills • job_skills • resumes</div>
+            </div>
+            <div class="card">
+                <h3>2. ML & Semantic Layer</h3>
+                <p>Dual NLP layer: Character/word n-gram TF-IDF baseline paired with Dense Semantic Embeddings (LSA/SVD) and Random Forest match classifier.</p>
+                <div class="code-box">Class-Weighted Trees • PR-AUC</div>
+            </div>
+            <div class="card">
+                <h3>3. Grounded RAG & App</h3>
+                <p>Retrieval engine indexing interview Q&A and learning resources. Autonomous tool calling connected to Streamlit interactive application.</p>
+                <div class="code-box">tool_query_jobs • tool_get_stats</div>
+            </div>
+        </div>
+        <div class="card card-highlight" style="margin-top: 20px;">
+            <p><strong>Deduplication & Data Quality</strong>: 400 duplicates detected via MD5 hash, 721 missing salary bands imputed via conditional group medians, and 25 location variants normalized.</p>
+        </div>
+    </div>
+
+    <!-- SLIDE 4: Database Design -->
+    <div class="slide">
+        <div class="slide-tag">Relational Database & SQL</div>
+        <h2 class="slide-title">Schema Design & Analytical Queries</h2>
+        <p class="slide-subtitle">Normalized relational structure enabling fast sub-millisecond aggregations.</p>
+        <div class="grid-2">
+            <div class="card">
+                <h3>Structured Tables</h3>
+                <ul>
+                    <li><code>companies</code>: Name, industry, size tier, headquarters.</li>
+                    <li><code>jobs</code>: 10,600 unique rows, salaries, locations, date.</li>
+                    <li><code>skills</code>: 52 canonical technical competencies.</li>
+                    <li><code>job_skills</code>: 68,813 many-to-many relationship rows.</li>
+                    <li><code>resumes</code> & <code>resume_skills</code>: 550 candidate profiles.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Key Analytical Queries (queries.sql)</h3>
+                <ul>
+                    <li><strong>Top Skills per Role</strong>: Window function calculating demand percentage by role category.</li>
+                    <li><strong>Hiring Volume by Company</strong>: Ranking top recruiters and compensation tiers.</li>
+                    <li><strong>Hiring Velocity Trends</strong>: Monthly active posting distributions over time.</li>
+                    <li><strong>Cross-Skill Co-occurrence</strong>: Technology pairing frequency (e.g. Python + Docker).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 5: 5 Key EDA Findings -->
+    <div class="slide">
+        <div class="slide-tag">Exploratory Data Analysis</div>
+        <h2 class="slide-title">Five Key Market Findings with Evidence</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3>1. Power-Law Skill Concentration</h3>
+                <p>Top 6 foundational skills (Docker 45.2%, Python 45.0%, AWS 37.8%, Kubernetes 28.9%) appear in 78% of postings, while niche frameworks drop below 6%.</p>
+            </div>
+            <div class="card">
+                <h3>2. Experience Threshold Divergence</h3>
+                <p>DevOps and Cybersecurity require median 5.0 years minimum experience, compared to Frontend (3.0 yrs) and Full Stack (3.0 yrs).</p>
+            </div>
+            <div class="card">
+                <h3>3. Kubernetes & Cloud Salary Premium</h3>
+                <p>Postings requiring Kubernetes offer an average salary of <strong>$182,229</strong> vs $148,810 without (+22.5% statistically significant premium, p &lt; 0.001).</p>
+            </div>
+            <div class="card">
+                <h3>4. Remote Compensation Parity</h3>
+                <p>Remote postings (19.8% of market) average $158,824, matching Tier-1 on-site hubs (San Francisco $162k, New York $160k).</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 6: Predictive Model & Imbalance -->
+    <div class="slide">
+        <div class="slide-tag">Machine Learning & Validation</div>
+        <h2 class="slide-title">Predictive Classifier & Class Imbalance</h2>
+        <p class="slide-subtitle">Predicting candidate-job fit while mitigating severe class imbalance.</p>
+        <div class="grid-3">
+            <div class="card" style="text-align: center;">
+                <div class="metric-val">19.5%</div>
+                <div class="metric-lbl">Positive Class Skew</div>
+                <p style="margin-top:8px;">Strong matches represent ~19.5% of pairs. Handled via <code>class_weight='balanced'</code>.</p>
+            </div>
+            <div class="card" style="text-align: center;">
+                <div class="metric-val">0.96+</div>
+                <div class="metric-lbl">PR-AUC Score</div>
+                <p style="margin-top:8px;">Evaluated via Precision-Recall AUC to ensure high precision without sacrificing recall.</p>
+            </div>
+            <div class="card" style="text-align: center;">
+                <div class="metric-val">26.2%</div>
+                <div class="metric-lbl">Top Feature Weight</div>
+                <p style="margin-top:8px;">Skill overlap ratio (26.2%) and Semantic similarity (24.2%) drive match classification.</p>
+            </div>
+        </div>
+        <div class="card card-highlight" style="margin-top: 15px;">
+            <h3>🛡️ Metric Defense: Why Balanced F1 Matters Most</h3>
+            <p>Recruiters prioritize Precision to prevent interviewing false positives; candidates require Recall so qualified profiles are not rejected. For CareerCompass, <strong>Balanced F1-Score</strong> is paramount because it simultaneously penalizes misleading match endorsements and unfair applicant rejections.</p>
+        </div>
+    </div>
+
+    <!-- SLIDE 7: NLP & Semantic Comparison -->
+    <div class="slide">
+        <div class="slide-tag">Text Processing & NLP</div>
+        <h2 class="slide-title">Dense Semantic Embeddings vs. TF-IDF</h2>
+        <p class="slide-subtitle">Resolving the vocabulary mismatch problem between resumes and job descriptions.</p>
+        <div class="grid-2">
+            <div class="card">
+                <h3 style="color: #F87171;">TF-IDF Baseline (Lexical N-Grams)</h3>
+                <ul>
+                    <li>Matches exact token and character sequences.</li>
+                    <li>Fails completely on abbreviations and synonyms:
+                        <br><em>"K8s, PSQL, Golang, AWS"</em> vs <em>"Kubernetes, PostgreSQL, Go"</em>
+                    </li>
+                    <li>Cosine Similarity Score: <strong>0.0000</strong> (False Negative)</li>
+                </ul>
+            </div>
+            <div class="card card-highlight">
+                <h3 style="color: #34D399;">Dense Semantic Embeddings (LSA / SVD)</h3>
+                <ul>
+                    <li>Projects text into continuous latent semantic space.</li>
+                    <li>Captures conceptual equivalence and industry synonyms.</li>
+                    <li>Cosine Similarity Score: <strong>0.3816</strong> (+0.3816 Gain)</li>
+                    <li>Correctly recognizes semantic alignment despite zero word overlap.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 8: Grounded RAG & Tool Calling -->
+    <div class="slide">
+        <div class="slide-tag">AI Layer & RAG</div>
+        <h2 class="slide-title">Knowledge Base Retrieval & Tool Calling</h2>
+        <p class="slide-subtitle">Autonomous assistant grounded in relational SQL data and engineering curricula.</p>
+        <div class="grid-2">
+            <div class="card">
+                <h3>RAG Improvement Roadmaps</h3>
+                <p>For detected skill gaps, retrieves curated learning resources and synthesizes an actionable 4-week plan:</p>
+                <ul>
+                    <li><strong>Week 1</strong>: Fundamentals & official docs citations.</li>
+                    <li><strong>Week 2</strong>: Certified coursework (CKA, Coursera, Udemy).</li>
+                    <li><strong>Week 3</strong>: Hands-on production capstone projects.</li>
+                    <li><strong>Week 4</strong>: Mock interview Q&A with evaluation points.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Implemented Tool Calling Functions</h3>
+                <ul>
+                    <li><code>tool_query_jobs()</code>: Filters 10,600+ jobs by role, location, salary.</li>
+                    <li><code>tool_get_skill_stats()</code>: Computes real-time demand % and top hiring companies.</li>
+                    <li><code>tool_get_interview_prep()</code>: Retrieves technical interview Q&A.</li>
+                    <li><code>tool_execute_sql()</code>: Safe read-only analytical query execution.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 9: Application Walkthrough -->
+    <div class="slide">
+        <div class="slide-tag">Application & Live Demo</div>
+        <h2 class="slide-title">Interactive Streamlit Platform</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Match Engine Tab</h3>
+                <p>PDF/DOCX upload, 0-100 radial score badge, 4-part calculation breakdown, ranked missing skills, and STAR resume rewriting suggestions.</p>
+            </div>
+            <div class="card">
+                <h3>Job Market Dashboard</h3>
+                <p>Interactive Altair visual charts: skill demand, boxplot salary distributions, metro hiring concentrations, and hiring velocity trends.</p>
+            </div>
+            <div class="card">
+                <h3>Batch Screening Tab</h3>
+                <p>Screens 10+ candidates simultaneously against a target opening, generating a sorted leaderboard with top candidate recommendations.</p>
+            </div>
+        </div>
+        <div class="card card-highlight" style="margin-top: 20px;">
+            <p><strong>Deployment Readiness</strong>: Fully containerizable, modular architecture, zero foreign-key violations, and local sub-second inference latency.</p>
+        </div>
+    </div>
+
+    <!-- SLIDE 10: Limitations & Future Work -->
+    <div class="slide">
+        <div class="slide-tag">Conclusion & Future Work</div>
+        <h2 class="slide-title">Limitations & Strategic Roadmap</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3>System Limitations</h3>
+                <ul>
+                    <li><strong>Static Taxonomies</strong>: Newly emerging frameworks require periodic taxonomy graph updates.</li>
+                    <li><strong>Experience Estimation</strong>: Career gap detection relies on explicit date ranges.</li>
+                    <li><strong>Synthetic Data Ceiling</strong>: Synthetic resumes lack subtle informal soft-skill nuances.</li>
+                </ul>
+            </div>
+            <div class="card card-highlight">
+                <h3>Future Extensions</h3>
+                <ul>
+                    <li><strong>Fine-Tuned LLM Embeddings</strong>: Integration with domain-specialized recruiting embeddings.</li>
+                    <li><strong>Automated Interviewer Bot</strong>: Interactive audio-based technical screening mock interviews.</li>
+                    <li><strong>Recruiter Multi-Tenant Portal</strong>: Role-based access control for HR enterprise teams.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Controls -->
+    <div class="footer">
+        <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)">◀ Previous</button>
+        <div class="slide-counter" id="counter">Slide 1 / 10</div>
+        <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)">Next ▶</button>
+    </div>
+</div>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const counter = document.getElementById('counter');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    function updateSlides() {
+        slides.forEach((s, idx) => {
+            s.classList.toggle('active', idx === currentSlide);
+        });
+        counter.textContent = `Slide ${currentSlide + 1} / ${slides.length}`;
+        prevBtn.disabled = currentSlide === 0;
+        nextBtn.disabled = currentSlide === slides.length - 1;
+    }
+
+    function changeSlide(direction) {
+        currentSlide = Math.max(0, Math.min(slides.length - 1, currentSlide + direction));
+        updateSlides();
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight' || e.key === 'Space') changeSlide(1);
+        if (e.key === 'ArrowLeft') changeSlide(-1);
+    });
+
+    updateSlides();
+</script>
+
+</body>
+</html>

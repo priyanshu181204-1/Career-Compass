@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1070 >>
+stream
+BT
+/F1 10 Tf
+50 750 Td
+14 TL
+(Priya Johnson) '
+(priya.johnson39@synthetic-talent.org | +1 \(555\) 541-9408 | Location: New York, NY) '
+() '
+(PROFESSIONAL SUMMARY) '
+(Results-driven Backend Engineer with 3 years of industry experience specializing in System Design, Java, Go, Kubernetes. Proven background building scalable solutions, collaborating across agile teams, and driving measurable engineering impact.) '
+() '
+(TECHNICAL SKILLS) '
+(System Design, Java, Go, Kubernetes, Jira, Docker, PostgreSQL, Agile, Redis, Kafka, Python) '
+() '
+(PROFESSIONAL EXPERIENCE) '
+(Backend Engineer | Cloudflare \(2022 - Present\)) '
+(- Designed and deployed enterprise-grade systems utilizing System Design and Java, improving throughput by 28%.) '
+(- Collaborated with engineering stakeholders to optimize data pipelines and system reliability using Go.) '
+(- Reduced system downtime and latency by 21% through proactive monitoring and automated CI/CD workflows.) '
+() '
+(EDUCATION) '
+(B.S. in Electrical and Computer Engineering, Stanford University \(Graduated 2022\)) '
+() '
+ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000060 00000 n 
+0000000117 00000 n 
+0000000234 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+350
+%%EOF

@@ -1,0 +1,382 @@
+{
+  "Programming Languages": {
+    "Python": {
+      "synonyms": [
+        "Python3",
+        "Python 3",
+        "Py"
+      ],
+      "category": "Languages",
+      "tier": "High"
+    },
+    "Java": {
+      "synonyms": [
+        "Core Java",
+        "J2EE"
+      ],
+      "category": "Languages",
+      "tier": "High"
+    },
+    "JavaScript": {
+      "synonyms": [
+        "JS",
+        "ES6",
+        "ECMAScript"
+      ],
+      "category": "Languages",
+      "tier": "High"
+    },
+    "TypeScript": {
+      "synonyms": [
+        "TS"
+      ],
+      "category": "Languages",
+      "tier": "High"
+    },
+    "C++": {
+      "synonyms": [
+        "CPP",
+        "Modern C++"
+      ],
+      "category": "Languages",
+      "tier": "Medium"
+    },
+    "Go": {
+      "synonyms": [
+        "Golang"
+      ],
+      "category": "Languages",
+      "tier": "High"
+    },
+    "Rust": {
+      "synonyms": [
+        "Rustlang"
+      ],
+      "category": "Languages",
+      "tier": "High"
+    },
+    "C#": {
+      "synonyms": [
+        "CSharp",
+        ".NET"
+      ],
+      "category": "Languages",
+      "tier": "Medium"
+    },
+    "SQL": {
+      "synonyms": [
+        "Structured Query Language",
+        "ANSI SQL"
+      ],
+      "category": "Languages",
+      "tier": "High"
+    }
+  },
+  "Data Science & AI": {
+    "Machine Learning": {
+      "synonyms": [
+        "ML",
+        "Statistical Modeling"
+      ],
+      "category": "AI/ML",
+      "tier": "High"
+    },
+    "Deep Learning": {
+      "synonyms": [
+        "DL",
+        "Neural Networks"
+      ],
+      "category": "AI/ML",
+      "tier": "High"
+    },
+    "NLP": {
+      "synonyms": [
+        "Natural Language Processing",
+        "Text Mining"
+      ],
+      "category": "AI/ML",
+      "tier": "High"
+    },
+    "Computer Vision": {
+      "synonyms": [
+        "CV",
+        "Image Processing"
+      ],
+      "category": "AI/ML",
+      "tier": "Medium"
+    },
+    "PyTorch": {
+      "synonyms": [
+        "Torch"
+      ],
+      "category": "AI/ML",
+      "tier": "High"
+    },
+    "TensorFlow": {
+      "synonyms": [
+        "TF",
+        "Keras"
+      ],
+      "category": "AI/ML",
+      "tier": "High"
+    },
+    "Scikit-Learn": {
+      "synonyms": [
+        "sklearn"
+      ],
+      "category": "AI/ML",
+      "tier": "High"
+    },
+    "Large Language Models": {
+      "synonyms": [
+        "LLMs",
+        "Generative AI",
+        "GenAI",
+        "RAG"
+      ],
+      "category": "AI/ML",
+      "tier": "High"
+    },
+    "Pandas": {
+      "synonyms": [
+        "DataFrames"
+      ],
+      "category": "AI/ML",
+      "tier": "High"
+    },
+    "NumPy": {
+      "synonyms": [],
+      "category": "AI/ML",
+      "tier": "Medium"
+    },
+    "Transformers": {
+      "synonyms": [
+        "HuggingFace",
+        "BERT",
+        "GPT"
+      ],
+      "category": "AI/ML",
+      "tier": "High"
+    }
+  },
+  "Cloud & DevOps": {
+    "Docker": {
+      "synonyms": [
+        "Containerization",
+        "Containers"
+      ],
+      "category": "DevOps",
+      "tier": "High"
+    },
+    "Kubernetes": {
+      "synonyms": [
+        "K8s",
+        "Container Orchestration"
+      ],
+      "category": "DevOps",
+      "tier": "High"
+    },
+    "AWS": {
+      "synonyms": [
+        "Amazon Web Services",
+        "EC2",
+        "S3",
+        "Lambda"
+      ],
+      "category": "Cloud",
+      "tier": "High"
+    },
+    "GCP": {
+      "synonyms": [
+        "Google Cloud",
+        "Google Cloud Platform",
+        "BigQuery"
+      ],
+      "category": "Cloud",
+      "tier": "High"
+    },
+    "Azure": {
+      "synonyms": [
+        "Microsoft Azure"
+      ],
+      "category": "Cloud",
+      "tier": "High"
+    },
+    "CI/CD": {
+      "synonyms": [
+        "Continuous Integration",
+        "GitHub Actions",
+        "GitLab CI",
+        "Jenkins"
+      ],
+      "category": "DevOps",
+      "tier": "High"
+    },
+    "Terraform": {
+      "synonyms": [
+        "Infrastructure as Code",
+        "IaC"
+      ],
+      "category": "DevOps",
+      "tier": "High"
+    },
+    "Linux": {
+      "synonyms": [
+        "Bash",
+        "Unix",
+        "Shell Scripting"
+      ],
+      "category": "DevOps",
+      "tier": "High"
+    },
+    "Prometheus": {
+      "synonyms": [
+        "Grafana",
+        "Monitoring",
+        "Observability"
+      ],
+      "category": "DevOps",
+      "tier": "Medium"
+    }
+  },
+  "Web & Mobile Development": {
+    "React": {
+      "synonyms": [
+        "React.js",
+        "ReactJS"
+      ],
+      "category": "Frontend",
+      "tier": "High"
+    },
+    "Node.js": {
+      "synonyms": [
+        "Node",
+        "Express",
+        "Express.js"
+      ],
+      "category": "Backend",
+      "tier": "High"
+    },
+    "FastAPI": {
+      "synonyms": [
+        "Fast API"
+      ],
+      "category": "Backend",
+      "tier": "High"
+    },
+    "Django": {
+      "synonyms": [
+        "DRF",
+        "Django REST"
+      ],
+      "category": "Backend",
+      "tier": "Medium"
+    },
+    "GraphQL": {
+      "synonyms": [
+        "Apollo"
+      ],
+      "category": "Backend",
+      "tier": "Medium"
+    },
+    "HTML/CSS": {
+      "synonyms": [
+        "HTML5",
+        "CSS3",
+        "Tailwind",
+        "Bootstrap"
+      ],
+      "category": "Frontend",
+      "tier": "Medium"
+    },
+    "Next.js": {
+      "synonyms": [
+        "NextJS"
+      ],
+      "category": "Frontend",
+      "tier": "High"
+    },
+    "Flutter": {
+      "synonyms": [
+        "Dart"
+      ],
+      "category": "Mobile",
+      "tier": "Medium"
+    },
+    "Swift": {
+      "synonyms": [
+        "iOS Development"
+      ],
+      "category": "Mobile",
+      "tier": "Medium"
+    }
+  },
+  "Databases & Distributed Systems": {
+    "PostgreSQL": {
+      "synonyms": [
+        "Postgres",
+        "PSQL"
+      ],
+      "category": "Databases",
+      "tier": "High"
+    },
+    "MongoDB": {
+      "synonyms": [
+        "NoSQL",
+        "DocumentDB"
+      ],
+      "category": "Databases",
+      "tier": "Medium"
+    },
+    "Redis": {
+      "synonyms": [
+        "Caching",
+        "Key-Value Store"
+      ],
+      "category": "Databases",
+      "tier": "High"
+    },
+    "Kafka": {
+      "synonyms": [
+        "Apache Kafka",
+        "Event Streaming",
+        "Message Queue"
+      ],
+      "category": "Distributed Systems",
+      "tier": "High"
+    },
+    "Spark": {
+      "synonyms": [
+        "Apache Spark",
+        "PySpark",
+        "Big Data"
+      ],
+      "category": "Data Engineering",
+      "tier": "High"
+    },
+    "Snowflake": {
+      "synonyms": [
+        "Data Warehouse"
+      ],
+      "category": "Data Engineering",
+      "tier": "High"
+    },
+    "Airflow": {
+      "synonyms": [
+        "Apache Airflow",
+        "Data Pipelines"
+      ],
+      "category": "Data Engineering",
+      "tier": "High"
+    },
+    "System Design": {
+      "synonyms": [
+        "Microservices",
+        "Scalability",
+        "High Availability"
+      ],
+      "category": "Architecture",
+      "tier": "High"
+    }
+  }
+}
